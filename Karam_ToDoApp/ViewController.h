@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "addTodoProtocol.h"
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, AddToDoProtocol>
 
-@interface ViewController : UIViewController
+@property NSMutableArray *list;
+@property NSMutableArray *mainList;
+
+
+@property (weak, nonatomic) IBOutlet UITableView *myTable;
+
+- (IBAction)mySegmented:(UISegmentedControl *)sender;
 
 
 @end

@@ -14,6 +14,13 @@
 		8EAB3BCC2808154C00456756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB3BCB2808154C00456756 /* Assets.xcassets */; };
 		8EAB3BCF2808154C00456756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB3BCD2808154C00456756 /* LaunchScreen.storyboard */; };
 		8EAB3BD22808154C00456756 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB3BD12808154C00456756 /* main.m */; };
+		8EAB3BDA2808174F00456756 /* ToDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB3BD92808174F00456756 /* ToDo.m */; };
+		8EAB3BDD28081CA400456756 /* AddToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB3BDC28081CA400456756 /* AddToDoViewController.m */; };
+		8EAB3BE028081CC400456756 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB3BDF28081CC400456756 /* DetailsViewController.m */; };
+		8EAB3BE328081CDE00456756 /* EditToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB3BE228081CDE00456756 /* EditToDoViewController.m */; };
+		8EF59A642808443F004480CD /* med.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF59A612808443F004480CD /* med.png */; };
+		8EF59A652808443F004480CD /* low.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF59A622808443F004480CD /* low.png */; };
+		8EF59A662808443F004480CD /* high.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF59A632808443F004480CD /* high.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,18 @@
 		8EAB3BCE2808154C00456756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EAB3BD02808154C00456756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EAB3BD12808154C00456756 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EAB3BD82808164F00456756 /* ToDo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDo.h; sourceTree = "<group>"; };
+		8EAB3BD92808174F00456756 /* ToDo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDo.m; sourceTree = "<group>"; };
+		8EAB3BDB28081CA400456756 /* AddToDoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddToDoViewController.h; sourceTree = "<group>"; };
+		8EAB3BDC28081CA400456756 /* AddToDoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddToDoViewController.m; sourceTree = "<group>"; };
+		8EAB3BDE28081CC400456756 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		8EAB3BDF28081CC400456756 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		8EAB3BE128081CDE00456756 /* EditToDoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditToDoViewController.h; sourceTree = "<group>"; };
+		8EAB3BE228081CDE00456756 /* EditToDoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditToDoViewController.m; sourceTree = "<group>"; };
+		8EAB3BE528082D5600456756 /* addTodoProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addTodoProtocol.h; sourceTree = "<group>"; };
+		8EF59A612808443F004480CD /* med.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = med.png; sourceTree = "<group>"; };
+		8EF59A622808443F004480CD /* low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = low.png; sourceTree = "<group>"; };
+		8EF59A632808443F004480CD /* high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = high.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +91,18 @@
 				8EAB3BCD2808154C00456756 /* LaunchScreen.storyboard */,
 				8EAB3BD02808154C00456756 /* Info.plist */,
 				8EAB3BD12808154C00456756 /* main.m */,
+				8EAB3BD82808164F00456756 /* ToDo.h */,
+				8EAB3BD92808174F00456756 /* ToDo.m */,
+				8EAB3BDB28081CA400456756 /* AddToDoViewController.h */,
+				8EAB3BDC28081CA400456756 /* AddToDoViewController.m */,
+				8EAB3BDE28081CC400456756 /* DetailsViewController.h */,
+				8EAB3BDF28081CC400456756 /* DetailsViewController.m */,
+				8EAB3BE128081CDE00456756 /* EditToDoViewController.h */,
+				8EAB3BE228081CDE00456756 /* EditToDoViewController.m */,
+				8EAB3BE528082D5600456756 /* addTodoProtocol.h */,
+				8EF59A632808443F004480CD /* high.png */,
+				8EF59A622808443F004480CD /* low.png */,
+				8EF59A612808443F004480CD /* med.png */,
 			);
 			path = Karam_ToDoApp;
 			sourceTree = "<group>";
@@ -133,9 +164,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF59A642808443F004480CD /* med.png in Resources */,
 				8EAB3BCF2808154C00456756 /* LaunchScreen.storyboard in Resources */,
 				8EAB3BCC2808154C00456756 /* Assets.xcassets in Resources */,
+				8EF59A652808443F004480CD /* low.png in Resources */,
 				8EAB3BCA2808154900456756 /* Main.storyboard in Resources */,
+				8EF59A662808443F004480CD /* high.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +180,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EAB3BDD28081CA400456756 /* AddToDoViewController.m in Sources */,
+				8EAB3BDA2808174F00456756 /* ToDo.m in Sources */,
 				8EAB3BC72808154900456756 /* ViewController.m in Sources */,
 				8EAB3BC12808154900456756 /* AppDelegate.m in Sources */,
+				8EAB3BE028081CC400456756 /* DetailsViewController.m in Sources */,
 				8EAB3BD22808154C00456756 /* main.m in Sources */,
+				8EAB3BE328081CDE00456756 /* EditToDoViewController.m in Sources */,
 				8EAB3BC42808154900456756 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
