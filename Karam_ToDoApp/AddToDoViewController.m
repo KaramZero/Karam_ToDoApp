@@ -31,6 +31,11 @@ NSString *date;
 
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:YES];
+    priority = @"low";
+}
+
 -(NSInteger)numberOfComponentsInPickerView:(UIPickerView *)thePickerView {
     return 1;  // Or return whatever as you intend
 }
@@ -95,10 +100,10 @@ numberOfRowsInComponent:(NSInteger)component {
     todo.priority = priority;
     
     
-    NSDate *today = [NSDate date];
-    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
-    [dateFormat setDateFormat:@"dd/MM/yyyy"];
-    NSString *dateString = [dateFormat stringFromDate:today];
+    NSDate *day = [NSDate date];
+    NSDateFormatter *format = [[NSDateFormatter alloc] init];
+    [format setDateFormat:@"dd/MM/yyyy"];
+    NSString *dateString = [format stringFromDate:day];
     
     todo.datee = dateString;
     todo.state = @"todo";
